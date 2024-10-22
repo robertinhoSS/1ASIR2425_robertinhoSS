@@ -34,7 +34,11 @@
 
 }
   
-  
+.spoty{
+	margin: auto;
+	display: flex;
+	
+} 
  .reel {
 	width: 100px;
 	height: 200px;
@@ -81,3 +85,4 @@
 	border-radius: 5px;
 	display: none;
   }
+  

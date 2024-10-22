@@ -35,9 +35,9 @@ setTimeout(checkForWin, 1000);
 function checkForWin() {
   let reel1Symbol = reels[0].querySelector('.symbol').textContent;
   let reel2Symbol = reels[1].querySelector('.symbol').textContent;
-  let reel3Symbol = reels[2].querySelector('.symbol');
-
-  let reel3img = reel3Symbol.querySelector('.symbol1')
+  let reel3Symbol = reels[2].querySelector('.symbol');textContent;
+  
+  
 
   let winningCombination = winningCombinations.find((combination) => {
     return combination[0] === reel1Symbol && combination[1] === reel2Symbol && combination[2] === reel3Symbol;
