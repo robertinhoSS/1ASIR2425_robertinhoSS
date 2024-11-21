@@ -1,0 +1,48 @@
+.barra-horizontal {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra-horizontal a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.barra-horizontal a:hover {
+    background-color: #ddd;
+    color: black;
+}
+body{
+    height: 99vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+}
+#footer {
+    position: fixed;
+    top: 80%;
+    width: 99vw;
+    height: 20vh;
+    background-color: #333;
+    color: #ddd;
+    align-self: flex-end;
+    justify-content: space-between;
+    display: flex;
+
+}
+#d1{
+    flex-direction: column;
+    margin: 3%;   
+    
+}
+#d2{
+    flex-direction: column;
+    margin: 3%;   
+
+}
+#Contacto{
+    text-decoration: #ddd;
+}

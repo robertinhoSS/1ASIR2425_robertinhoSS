@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Slot Machine</title>
+	<link rel="stylesheet" href="../styles/slots.css">
+	<noscript>
+		<div id="noscript-container">
+			<div id="ns-content">
+				<img id="no-javascript" src="../assets/no-javascript.png" alt="Javascript blocked"/>
+				<div id="ns-text-container">
+					<h1>Javascript Blocked!</h1>
+					<p>The game requires Javascript to work, please allow it in order to play, then reload the page.</p>
+				</div>
+			</div>
+		</div>
+	</noscript>
+</head>
+<body>
+	<header>
+		<div class="link-container" id="home-lnk-container">
+			<a id="index-link" href="../index.html"><span class="material-symbols-outlined">home</span></a>
+		</div>
+		<div class="link-container" id="slots-lnk-container">
+			<a id="slots-link" href="./slots.html">slots</a>
+		</div>
+	</header>
+	<main id="slot-container">
+		<div id="slot-machine">
+			<div id="reel1">
+				<div class="cell top first">
+				</div>
+				<div class="cell center first">
+				</div>
+				<div class="cell bottom first">
+				</div>
+			</div>
+			<div id="reel2">
+				<div class="cell top second">
+				</div>
+				<div class="cell center second">
+				</div>
+				<div class="cell bottom second">
+				</div>
+			</div>
+			<div id="reel3">
+				<div class="cell top third">
+				</div>
+				<div class="cell center third">
+				</div>
+				<div class="cell bottom third">
+				</div>
+			</div>			
+		</div>
+		<button id="spin-button" aria-label="spin"><span/></button>
+		<div id="state-message-container">
+			<pre id="win-message">PLAY  PLAY  PLAY  PLAY  PLAY  PLAY  PLAY  PLAY  PLAY  PLAY</pre>
+		</div>
+	</main>
+	<aside id="scoreboard">
+		<div id="user-score">
+			<label id="score-label" for="score">Score  </label>
+			<input id="score" type="texfield" disabled placeholder="0"/>
+		</div>
+		<div>
+			<p id="conditions-p">~Win Conditions~</p>
+			<div>
+				<div class="scoreboard-row">
+					<div>
+						<img class="scoreboard-icon" src="../assets/seven.png" alt="seven"/>
+						<img class="scoreboard-icon" src="../assets/seven.png" alt="seven"/>
+						<img class="scoreboard-icon" src="../assets/seven.png" alt="seven"/>
+					</div>
+					<input class="points" type="text" disabled placeholder="1000"/>
+				</div>
+				<div class="scoreboard-row">
+					<div>
+						<img class="scoreboard-icon" src="../assets/bell.png" alt="bell"/>
+						<img class="scoreboard-icon" src="../assets/bell.png" alt="bell"/>
+						<img class="scoreboard-icon" src="../assets/bell.png" alt="bell"/>
+					</div>
+					<input class="points" type="text" disabled placeholder="500"/>
+				</div>
+				<div class="scoreboard-row">
+					<div>
+						<img class="scoreboard-icon" src="../assets/bar.png" alt="bar"/>
+						<img class="scoreboard-icon" src="../assets/bar.png" alt="bar"/>
+						<img class="scoreboard-icon" src="../assets/bar.png" alt="bar"/>	
+					</div>
+					<input class="points" type="text" disabled placeholder="250"/>
+				</div>
+				<div class="scoreboard-row">
+					<div>
+						<img class="scoreboard-icon" src="../assets/cherry.png" alt="cherry"/>
+						<img class="scoreboard-icon" src="../assets/cherry.png" alt="cherry"/>
+						<img class="scoreboard-icon" src="../assets/cherry.png" alt="cherry"/>					
+					</div>
+					<input class="points" type="text" disabled placeholder="150"/>
+				</div>
+				<div class="scoreboard-row">
+					<div>
+						<img class="scoreboard-icon" src="../assets/watermelon.png" alt="watermelon"/>
+						<img class="scoreboard-icon" src="../assets/watermelon.png" alt="watermelon"/>
+						<img class="scoreboard-icon" src="../assets/watermelon.png" alt="watermelon"/>					
+					</div>
+					<input class="points" type="text" disabled placeholder="100"/>
+				</div>
+				<div class="scoreboard-row">
+					<div>
+						<img class="scoreboard-icon" src="../assets/lemon.png" alt="lemon"/>
+						<img class="scoreboard-icon" src="../assets/lemon.png" alt="lemon"/>
+						<img class="scoreboard-icon" src="../assets/lemon.png" alt="lemon"/>					
+					</div>
+					<input class="points" type="text" disabled placeholder="75"/>
+				</div>
+				<div class="scoreboard-row">
+					<div>
+						<img class="scoreboard-icon" src="../assets/grapes.png" alt="grapes"/>
+						<img class="scoreboard-icon" src="../assets/grapes.png" alt="grapes"/>
+						<img class="scoreboard-icon" src="../assets/grapes.png" alt="grapes"/>						
+					</div>
+					<input class="points" type="text" disabled placeholder="50"/>
+				</div>
+				<div class="scoreboard-row">
+					<div>
+						<img class="scoreboard-icon" src="../assets/orange.png" alt="orange"/>
+						<img class="scoreboard-icon" src="../assets/orange.png" alt="orange"/>
+						<img class="scoreboard-icon" src="../assets/orange.png" alt="orange"/>	
+					</div>
+					<input class="points" type="text" disabled placeholder="10"/>
+				</div>
+			</div>
+		</div>
+	</aside>
+</body>
+<script src="../scripts/slots.js"></script>
+</html>
