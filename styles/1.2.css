@@ -1,3 +1,6 @@
+*{
+    cursor: url('../assets/moneda.png') , pointer;  
+  }
 .barra-horizontal {
     background-color: #333;
     padding: 10px;
@@ -15,6 +18,10 @@
     background-color: #ddd;
     color: black;
 }
+body{
+    background-color: rgba(5, 74, 43, 0.904);
+    
+}
 footer {
     position: fixed;
     top: 80%;
@@ -25,7 +32,8 @@ footer {
     align-self: flex-end;
     justify-content: space-between;
     display: flex;
-
+    padding: auto;
+    text-align: center;
 }
 #d1{
     flex-direction: column;
@@ -38,5 +46,27 @@ footer {
 
 }
 #Contacto{
+    height: auto;
+
     text-decoration: #ddd;
+}
+.colum{
+    float: inline-end;
+    align-items: center;
+    margin: 0 auto;
+    vertical-align: middle;
+    
+
+}
+#Futbol,#NBA {
+    height: 600px;
+    width: 50%;
+
+    padding: auto;
+    text-align: center;
+    margin: 0% auto;   
+    background-color: #dddddd;
+}
+iframe{
+    height: 300px;
 }

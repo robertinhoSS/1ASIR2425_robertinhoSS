@@ -4,8 +4,8 @@
 	box-sizing: border-box;
 	font-weight: bold;
 	/*border: 1px solid red;*/
+	 cursor: url('../assets/moneda.png') , pointer;  
 }
-
 @font-face {
     font-family: "Pixeloid";
     src: url(../assets/fonts/PixeloidSans-mLxMm.ttf) format("truetype");

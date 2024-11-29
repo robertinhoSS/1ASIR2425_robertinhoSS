@@ -46,3 +46,6 @@ body{
 #Contacto{
     text-decoration: #ddd;
 }
+*{
+  cursor: url('../assets/moneda.png') , pointer;  
+}
