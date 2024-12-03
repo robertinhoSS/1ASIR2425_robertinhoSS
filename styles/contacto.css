@@ -60,3 +60,9 @@ body {
     background-color: #45a049;
   }
   
+  a:link{
+    color: white
+}
+a:visited{
+    color: white;
+}

@@ -1,3 +1,6 @@
+*{
+    cursor: url('../assets/moneda.png') , pointer;  
+  }
 .barra-horizontal {
     background-color: #333;
     padding: 10px;
@@ -16,13 +19,16 @@
     color: black;
 }
 body{
-    background-color: cadetblue;
-    height: 99vh;
-    width: 98vw;
-    display: flex;
-    flex-direction: column;
+    background-color: rgba(5, 74, 43, 0.904);
+    
 }
-#footer {
+a:link{
+    color: white
+}
+a:visited{
+    color: white;
+}
+footer {
     position: fixed;
     top: 80%;
     width: 99vw;
@@ -32,7 +38,8 @@ body{
     align-self: flex-end;
     justify-content: space-between;
     display: flex;
-
+    padding: auto;
+    text-align: center;
 }
 #d1{
     flex-direction: column;
@@ -45,14 +52,28 @@ body{
 
 }
 #Contacto{
+    height: auto;
+
     text-decoration: #ddd;
 }
-a:link{
-    color: white
+.colum{
+    float: inline-end;
+    align-items: center;
+    margin: 0 auto;
+    vertical-align: middle;
+        
+
 }
-a:visited{
-    color: white;
+
+#Futbol,#NBA {
+    height: 600px;
+    width: 50%;
+    
+    padding: auto;
+    text-align: center;
+    margin: 0% auto;   
+    background-color: #dddddd;
 }
-*{
-  cursor: url('../assets/moneda.png') , pointer;  
+iframe{
+    height: 300px;
 }
