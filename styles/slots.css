@@ -3,7 +3,8 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-weight: bold;
-	/*border: 1px solid red;*/
+	cursor: url('../assets/moneda.png') , pointer;  
+
 }
 
 @font-face {
