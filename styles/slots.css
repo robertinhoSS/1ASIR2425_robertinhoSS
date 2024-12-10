@@ -4,8 +4,8 @@
 	box-sizing: border-box;
 	font-weight: bold;
 	/*border: 1px solid red;*/
-	 cursor: url('../assets/moneda.png') , pointer;  
 }
+
 @font-face {
     font-family: "Pixeloid";
     src: url(../assets/fonts/PixeloidSans-mLxMm.ttf) format("truetype");
@@ -14,7 +14,7 @@
 body{
 	background: fixed;
 	background-image: url(https://wallpapers.com/images/hd/4k-beach-background-e61puw3p8q7m449b.jpg);
-    background-size: 100%;
+    	background-size: 100%;
 	
 	height: 100dvh;
 	width: 100dvw;
@@ -113,7 +113,7 @@ header {
 	justify-content: space-around;
 	align-self: center;
 	animation: glowing 0.5s infinite;
-	z-index: 1;
+	z-index: 0.5;
 }
 
 .reel-box{
@@ -159,6 +159,9 @@ header {
 }
 
 #spin-button {
+	font-size: 16px;
+	font-family: Pixeloid;
+	color: #fff822;
 	margin: 2rem 60%;
 	height: 4rem;
 	width: 10rem;
@@ -220,7 +223,7 @@ header {
 /*---------------------------------------------------------------------------*/
 
 #scoreboard{
-    background-color: #333;
+    background-color: rgba(87, 84, 84, 0.5);
 	grid-area: scores;
 	height: 90vh;
 	border: 2px solid rgb(87, 87, 87);
@@ -252,6 +255,10 @@ header {
 	height: 95%;
 	background-color: unset;
 	border-radius: 5px;
+}
+
+#point{
+	color: rgb(255, 203, 32);
 }
 
 /*Válido só para Firefox e similares*/
@@ -362,7 +369,7 @@ header {
 	background-color: #1616169f;
 	height: 100vh;
 	width: 100vw;
-	z-index: 0;
+	z-index: 1;
 	position: absolute;
 
 }
