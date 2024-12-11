@@ -1,3 +1,19 @@
+*{
+    cursor: url('../assets/moneda.png') , pointer;  
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+    background-color: cadetblue;
+    height: 99vh;
+    width: 98vw;
+    
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+}
 .barra-horizontal {
     background-color: #333;
     padding: 10px;
@@ -15,24 +31,18 @@
     background-color: #ddd;
     color: black;
 }
-body{
-    background-color: cadetblue;
-    height: 99vh;
-    width: 98vw;
-    display: flex;
-    flex-direction: column;
-}
+
 #footer {
-    position: fixed;
+    display: flex;
     top: 80%;
-    width: 99vw;
+    left: 10%;
+    width: 100%;
     height: 20vh;
     background-color: #333;
     color: #ddd;
     align-self: flex-end;
     justify-content: space-between;
-    display: flex;
-
+    
 }
 #d1{
     flex-direction: column;
@@ -52,7 +62,4 @@ a:link{
 }
 a:visited{
     color: white;
-}
-*{
-  cursor: url('../assets/moneda.png') , pointer;  
 }
