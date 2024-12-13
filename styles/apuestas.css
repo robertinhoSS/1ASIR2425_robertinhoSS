@@ -72,9 +72,10 @@ footer {
     height: 600px;
     width: 50%;
     
-    padding: 5px auto;
+    padding: 5% auto;
     text-align: center;
-    margin: 0% auto;   
+    margin
+    : 0% auto;   
     background-color: #dddddd;
 }
 iframe{
