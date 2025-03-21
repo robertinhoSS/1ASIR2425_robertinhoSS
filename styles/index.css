@@ -45,7 +45,7 @@ body{
     flex-basis: auto;
     align-self: auto;
     order: 1;
-    width: 15%;
+    width: 20%;
     }
   
   .flex-items:nth-child(2) {
@@ -55,7 +55,7 @@ body{
     flex-basis: auto;
     align-self: auto;
     order: 2;
-    width: 70%;
+    width: 60%;
     height: 100%;
   }
   
@@ -66,7 +66,7 @@ body{
     flex-basis: auto;
     align-self: auto;
     order: 3;
-    width: 15%;
+    width: 20%;
   }
 section{
    background-color: #D7D7DB;
@@ -76,7 +76,9 @@ section{
 aside{
 
 }
-
+img{
+    width: 100%;
+}
 #footer {
     display: flex;
     top: 80%;
