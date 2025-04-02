@@ -78,6 +78,7 @@ aside{
 }
 img{
     width: 100%;
+    
 }
 #footer {
     display: flex;
@@ -105,8 +106,11 @@ img{
     text-decoration: #ddd;
 }
 a:link{
-    color: white
+    color: rgb(255, 255, 255)
 }
 a:visited{
-    color: white;
+    color: rgb(255, 255, 255);
+}
+#link{
+    color: #333;
 }
